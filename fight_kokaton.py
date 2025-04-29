@@ -156,13 +156,6 @@ class Score:
     def update(self, screen: pg.surface):
         self.img = self.fonto.render(f"スコア:{self.score}", 0, self.color)
         screen.blit(self.img,self.rct)
-
-class Explosion:
-
-    def __init__(self):
-        pass
-
-
         
 
 def main():
